@@ -37,15 +37,15 @@ public class ExecutionPart3 {
 
         // =============================================================================================================
 
-        // 2.2 - Utilizando o método find do entityManager
-        // Trazendo somente 1 resultado
-        Aluno alunoEntityManager = entityManager.find(Aluno.class, 1);
-
-        // Trazendo uma lista como resultado
-        // Nao eh possivel!!! Deve utilizar um dos métodos utilizados abaixos nas partes 2.3 - 2.4 - 2.5
-
-        // Resultados das consultas acima
-        System.out.println("Consulta alunoEntityManager: " + alunoEntityManager);
+//        // 2.2 - Utilizando o método find do entityManager
+//        // Trazendo somente 1 resultado
+//        Aluno alunoEntityManager = entityManager.find(Aluno.class, 1);
+//
+//        // Trazendo uma lista como resultado
+//        // Nao eh possivel!!! Deve utilizar um dos métodos utilizados abaixos nas partes 2.3 - 2.4 - 2.5
+//
+//        // Resultados das consultas acima
+//        System.out.println("Consulta alunoEntityManager: " + alunoEntityManager);
 
         // =============================================================================================================
 
